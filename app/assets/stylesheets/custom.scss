@@ -73,9 +73,11 @@ color: #777;
 
 p {
 
-font-size: 1.1em;
+font-size: 0.4em;
+letter-spacing: -1.3px;
 
 line-height: 1.7em;
+text-align: left;
 
 }
 
@@ -108,6 +110,7 @@ color: #fff;
 text-decoration: none;
 
 }
+<<<<<<< HEAD
 bodyTab {
   float : left;
   border-style: solid;
@@ -115,3 +118,10 @@ bodyTab {
 yieldF{
  float : right; 
 }
+=======
+
+h8 {
+text-align: right;
+
+}
+>>>>>>> b2d014eff6f2b73ba631444477e08828d2363a0c
