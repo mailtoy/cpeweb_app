@@ -15,6 +15,5 @@ get '/reseach', to: 'static_pages#reseach'
                 get '/admission', to: 'static_pages#admission'
 
 
-
 end
 
