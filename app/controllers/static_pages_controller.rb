@@ -20,4 +20,8 @@ end
 def static
 end
 
+
+  def reseach
+  end  
+
 end
