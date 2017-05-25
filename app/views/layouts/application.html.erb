@@ -30,8 +30,6 @@
 
 <div class="container">
 
-<%= link_to "sample app", '#', id: "logo" %>
-
 <%= link_to "Computer Department KU", '#', id: "logo" %>
 
 
@@ -39,11 +37,13 @@
 
 <ul class="nav navbar-nav navbar-right">
 
-<li><%= link_to "Home", '#' %></li>
-
-<li><%= link_to "Help", '#' %></li>
-
-<li><%= link_to "Log in", '#' %></li>
+ <li><%= link_to "Home Page", '#' %></li>
+  <li><%= link_to "About", '#' %></li>
+  <li><%= link_to "Administration", '#' %></li>
+  <li><%= link_to "Tution fee and Scholarships", '#' %></li>
+  <li><%= link_to "Academic", '#' %></li>
+  <li><%= link_to "Research", '#' %></li>
+  <li><%= link_to "Activities", '#' %></li>
 
 </ul>
 
@@ -54,14 +54,7 @@
 </header>
 
 <section>
-<bodyTab>
-  <li>Home Page</li><br>
-  <li>About</li><br>
-  <li>Administration</li><br>
-  <li>TUITION FEE AND SCHOLARSHIPS</li><br>
-  <li>Academics</li><br>
-  <li>Reasearch</li>
-</bodyTab>
+
 
 </section>
 <aside>
@@ -69,6 +62,7 @@
 </aside>
 
 </body>
+<%= render 'layouts/footer' %>
 
 
 
