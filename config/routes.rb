@@ -9,6 +9,8 @@ Rails.application.routes.draw do
       get '/cpe', to: 'static_pages#cpe'
        get '/static', to: 'static_pages#static'
         get '/badit', to: 'static_pages#badit'
+                get '/admission', to: 'static_pages#admission'
+
 
 
 

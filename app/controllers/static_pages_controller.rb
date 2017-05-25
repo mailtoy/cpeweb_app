@@ -1,5 +1,4 @@
 class StaticPagesController < ApplicationController
-<<<<<<< HEAD
 
   def about
   end
@@ -9,10 +8,16 @@ class StaticPagesController < ApplicationController
   end
   def admini
   end
+  def admission
+  end
+  def ske
+  end
+def badit
+end
+def cpe
+  
+end
+def static
 end
 
-=======
-  def Admission
-  end
 end
->>>>>>> b1d808022d82f5be64e5126a1bff062a9c03072d
