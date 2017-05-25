@@ -73,11 +73,9 @@ color: #777;
 
 p {
 
-font-size: 0.4em;
-letter-spacing: -1.3px;
+font-size: 1.1em;
 
 line-height: 1.7em;
-text-align: left;
 
 }
 
@@ -110,8 +108,12 @@ color: #fff;
 text-decoration: none;
 
 }
-
-h8 {
-text-align: right;
-
+bodyTab {
+  float : left;
+  border-style: solid;
 }
+yieldF{
+ float : right; 
+}
+
+
