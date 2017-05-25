@@ -3,4 +3,6 @@ class StaticPagesController < ApplicationController
   end
   def contact
   end
+  def academics
+  end
 end
