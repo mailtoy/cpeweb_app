@@ -5,9 +5,12 @@ Rails.application.routes.draw do
 
   get '/contact', to: 'static_pages#contact'
     get '/admini', to: 'static_pages#admini'
+     get '/ske', to: 'static_pages#ske'
+      get '/cpe', to: 'static_pages#cpe'
+       get '/static', to: 'static_pages#static'
+        get '/badit', to: 'static_pages#badit'
 
 
 
-  get 'static_pages/admini'
 
 end
