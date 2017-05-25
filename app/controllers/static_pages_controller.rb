@@ -4,6 +4,7 @@ class StaticPagesController < ApplicationController
   end
   def contact
   end
+
   def home
   end
   def admini
@@ -24,4 +25,7 @@ end
   def reseach
   end  
 
+
+  def academics
+  end
 end
